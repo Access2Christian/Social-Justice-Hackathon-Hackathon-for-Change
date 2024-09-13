@@ -1,0 +1,44 @@
+name: simple_flutter_app
+description: "A new Flutter project promoting feminism."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^5.0.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/pexels-alexander-mass-748453803-27869834.jpg
+    - assets/images/pexels-artempodrez-6003075.jpg
+    - assets/images/pexels-cathy-b-748462208-28243575.jpg
+    - assets/images/pexels-esma-atak-46104031-20370059.jpg
+    - assets/images/pexels-hatice-baran-153179658-28003132.jpg
+    - assets/images/pexels-karina-1622396627-27555585.jpg
+    - assets/images/pexels-miguelreyes-28296202.jpg
+    - assets/images/pexels-nayla-bernardes-1673442920-28302543.jpg
+    - assets/images/pexels-njeromin-20678740.jpg
+    - assets/images/pexels-opticaltimeline-27854288.jpg
+    - assets/images/pexels-polina-tankilevitch-5585857.jpg
+    - assets/images/pexels-raymond-petrik-1448389535-28232676.jpg
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/images/fonts/RobotoMono-Light.ttf
+
+
+ 
