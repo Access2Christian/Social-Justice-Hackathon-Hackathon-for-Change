@@ -32,12 +32,12 @@ class SecondPage extends StatelessWidget {
                 },
                 child: Text('View Resources'),
               ),
-              // Add a button for the video page (after you create it)
+              // Button for the video page (after you create it)
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => FourthPage()), // Create this page
+                    MaterialPageRoute(builder: (context) => FourthPage()), // Navigation to the fourth page
                   );
                 },
                 child: Text('View Video on Discrimination'),

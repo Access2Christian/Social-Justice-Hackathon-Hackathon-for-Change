@@ -19,7 +19,7 @@ class _ResourcesPageState extends State<ResourcesPage> {
 
   Future<void> fetchArticles() async {
     final response = await http.get(
-      Uri.parse('https://newsapi.org/v2/everything?q=alopecia&apiKey=1b65f25f647f4c28963e2b8b32e4543d'), // News API key
+      Uri.parse('https://newsapi.org/v2/everything?q=alopecia&apiKey=1b65f25f647f4c28963e2b8b32e4543d'), // News Authorization header with API key
     );
 
     if (response.statusCode == 200) {
