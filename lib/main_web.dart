@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
   // Function to fetch images from the Pexels API
   Future<void> fetchImages() async {
     final response = await http.get(
-      Uri.parse('https://api.pexels.com/v1/search?query=bald%20women%20empowerment%20alopecia%&per_page=30'),
+      Uri.parse('https://api.pexels.com/v1/search?query=bald%20women&per_page=100'),
       headers: {'Authorization': 'Bb17bgsb4TY1LEsMKok7lmZOIxus9NTSDrnVVlNtsIS7sEb0if6jsMSO'}, // Authorization header with API key
     );
 
